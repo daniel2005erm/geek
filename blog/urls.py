@@ -5,4 +5,3 @@ urlpatterns = [
     path("contacts/", views.get_contacts, name="contacts-view"),
     path("about/", views.get_about, name="about-view"),
 ]
-print()
